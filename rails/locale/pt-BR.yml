@@ -10,7 +10,7 @@ pt-BR:
     - Sex
     - Sáb
     abbr_month_names:
-    - 
+    -
     - Jan
     - Fev
     - Mar
@@ -36,7 +36,7 @@ pt-BR:
       long: "%d de %B de %Y"
       short: "%d de %B"
     month_names:
-    - 
+    -
     - Janeiro
     - Fevereiro
     - Março
@@ -131,6 +131,19 @@ pt-BR:
         one: 'Não foi possível gravar %{model}: 1 erro'
         other: 'Não foi possível gravar %{model}: %{count} erros.'
   helpers:
+    actions: "Ações"
+    links:
+      back: "Voltar"
+      cancel: "Cancelar"
+      confirm: "Você tem certeza?"
+      destroy: "Remover"
+      new: "Criar"
+      edit: "Atualizar"
+    titles:
+      edit: "Atualizar %{model}"
+      save: "Salvar %{model}"
+      new: "Criar %{model}"
+      delete: "Remover %{model}"
     select:
       prompt: Por favor selecione
     submit:
